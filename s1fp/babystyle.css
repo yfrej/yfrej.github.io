@@ -41,9 +41,10 @@ html, body {
 }
 
 #feet {
-  bottom: 150px;
-  right: 750px; 
-  position: fixed;
+  position: absolute;
+  left: calc(50% - 20px);
+  top: 550px;
+  text-align: center;
   color: DB1E57;
   font-size: 18px;
   font-family: Inknut Antiqua;
