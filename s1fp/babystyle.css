@@ -93,7 +93,8 @@ html, body {
 }
 
 #babushkababy:hover {
-  animate: .shake;
+  animation: babushkawiggle 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes babushkawiggle {
