@@ -14,39 +14,14 @@ html, body {
   font-weight: 400; 
 }
 
-.bottomalignimage {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
+#finalstore {
+  width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
-#styledtable {
-  width: 800px;
-  position: relative;
-  margin: 200px auto 0 auto;
-  border-collapse: collapse;
-}
-#styledtable td, #styledtable th {
-  text-align: center;
-  position: relative;
-  border: 0px solid #000000;
-  width: 33.3333%;
-  height: 200px;
-  align-items: bottom;
-}
 
-#babushka1 {
- left: 12%;
-}
-
-#babushka2 {
-  left: 24%;
-}
-
-#babushka3 {
-  left: 29%;
-}
 
 .shake:hover {
   animation: babushkawiggle 3s;
