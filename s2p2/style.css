@@ -133,9 +133,9 @@ html, body {
 @media only screen and (max-width: 1000px) {
   #caterpillarwrapper {
     transform: rotate(90deg); 
-    margin: 450px auto 0 auto;
+    margin: 550px auto 0 auto;
     text-align: center; 
-    width: 120%;
+    width: 220%;
     max-width: 1000px;
   }
 }
@@ -143,17 +143,17 @@ html, body {
 @media only screen and (max-width: 600px) {
   #caterpillarwrapper {
     transform: rotate(90deg);
-    margin: 450px auto 0 auto; 
+    margin: 550px auto 0 auto; 
     text-align: center; 
-    width: 150%;
+    width: 250%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   #caterpillarwrapper {
     transform: rotate(90deg);
-    margin: 450px auto 0 auto; 
+    margin: 550px auto 0 auto; 
     text-align: center; 
-    width: 200%;
+    width: 250%;
   }
 }
