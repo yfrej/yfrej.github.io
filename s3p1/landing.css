@@ -1,0 +1,256 @@
+html, body {
+  margin: auto;
+  min-height: 1000h;
+}
+
+#title1 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#title2 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#title3 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#title4 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#title5 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#title6 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#IMEAIntro {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 600px;
+  color: black;
+  font-size: 30px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#MainImage {
+  width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#WarehouseQuestion {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#IMEAChoiceA {
+  text-align: center;
+  width:100%;
+  position: relative;
+  top: 5px;
+  color: black;
+  font-size: 25px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+#IMEAChoiceB {
+  text-align: center;
+  width:100%;
+  position: relative;
+  top: 20px;
+  margin-bottom: 600px;
+  color: black;
+  font-size: 25px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#IMEAList1 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  top: 7px;
+  padding: 4px;
+  color: black;
+  font-size: 25px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+#IMEAList2 {
+  text-align: center;
+  width:100%;
+  position: relative;
+  top: 7px;
+  margin-bottom: 600px;
+  color: black;
+  font-size: 25px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Return {
+  text-align: right;
+  width: 100%;
+  position: relative; 
+  top: 50px;
+  right: 53px;
+  margin-bottom: 600px;
+  color: black;
+  font-size: 25px;
+  font-family: Inknut Antiqua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+#Premium {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Cool {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Preppy {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Modest {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Retro {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Modern {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Trendy {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+#Timeless {
+  text-align: center;
+  width:100%;
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 42px;
+  font-family: Inknut Antiqua;
+  font-weight: 400; 
+}
+
+a {
+  text-decoration: none;
+}
