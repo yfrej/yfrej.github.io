@@ -1,6 +1,7 @@
 html, body {
   margin: auto;
   min-height: 1000h;
+  scroll-behavior: smooth;
 }
 
 #title1 {
