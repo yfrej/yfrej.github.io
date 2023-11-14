@@ -4,6 +4,20 @@ html, body {
   scroll-behavior: smooth;
 }
 
+/*section {
+  min-height: 1000vh; 
+  background-color: white;
+}  */
+
+#gradient {
+  background: hsla(0, 0%, 100%, 1);
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
+  background: -moz-linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
+  background: -webkit-linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#B5FCFC", GradientType=1 ); 
+}
+
+
 #title1 {
   text-align: center;
   width:100%;
@@ -13,6 +27,7 @@ html, body {
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #title2 {
@@ -20,10 +35,12 @@ html, body {
   width:100%;
   position: relative;
   margin-top: 100px;
+  margin-bottom:50px;
   color: black;
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #title3 {
@@ -35,6 +52,7 @@ html, body {
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #title4 {
@@ -46,6 +64,7 @@ html, body {
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #title5 {
@@ -57,6 +76,7 @@ html, body {
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #title6 {
@@ -68,6 +88,7 @@ html, body {
   font-size: 42px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #IMEAIntro {
@@ -75,11 +96,12 @@ html, body {
   width:100%;
   position: relative;
   margin-top: 50px;
-  margin-bottom: 600px;
+  margin-bottom: 200px;
   color: black;
   font-size: 30px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #MainImage {
@@ -99,6 +121,7 @@ html, body {
   font-size: 30px;
   font-family: Inknut Antiqua;
   font-weight: 400; 
+  background-color: white;
 }
 
 #IMEAChoiceA {
@@ -118,7 +141,7 @@ html, body {
   width:100%;
   position: relative;
   top: 20px;
-  margin-bottom: 600px;
+  margin-bottom: 200px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
@@ -143,7 +166,7 @@ html, body {
   width:100%;
   position: relative;
   top: 7px;
-  margin-bottom: 600px;
+  margin-bottom: 200px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
@@ -156,7 +179,7 @@ html, body {
   position: relative; 
   top: 50px;
   right: 53px;
-  margin-bottom: 600px;
+  margin-bottom: 200px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
