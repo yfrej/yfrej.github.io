@@ -10,6 +10,7 @@ html, body {
 }  */
 
 #gradient {
+  height: 1000h;
   background: hsla(0, 0%, 100%, 1);
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
   background: -moz-linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
