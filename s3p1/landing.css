@@ -5,7 +5,7 @@ html, body {
 }
 
 #pinkgradient {
-  height: 2000vh;
+  height: 3400vh;
   background: hsla(0, 0%, 100%, 1);
   background: linear-gradient(270deg, hsla(0, 0%, 100%, 1) 17%, hsla(327, 89%, 71%, 1) 97%);
   background: -moz-linear-gradient(270deg, hsla(0, 0%, 100%, 1) 17%, hsla(327, 89%, 71%, 1) 97%);
@@ -41,7 +41,7 @@ html, body {
   }
 
 #endgradient {
-  height: 2000vh;
+  height: 3400vh;
   background: hsla(210, 100%, 34%, 1);
   background: linear-gradient(270deg, hsla(210, 100%, 34%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
   background: -moz-linear-gradient(270deg, hsla(210, 100%, 34%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
