@@ -4,20 +4,50 @@ html, body {
   scroll-behavior: smooth;
 }
 
-/*section {
-  min-height: 1000vh; 
-  background-color: white;
-}  */
-
-#gradient {
-  height: 1000h;
+#pinkgradient {
+  height: 2000vh;
   background: hsla(0, 0%, 100%, 1);
-  background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
-  background: -moz-linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
-  background: -webkit-linear-gradient(180deg, hsla(0, 0%, 100%, 1) 0%, hsla(180, 92%, 85%, 1) 23%, hsla(201, 63%, 50%, 1) 53%, hsla(205, 96%, 40%, 1) 76%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#B5FCFC", GradientType=1 ); 
+  background: linear-gradient(270deg, hsla(0, 0%, 100%, 1) 17%, hsla(327, 89%, 71%, 1) 97%);
+  background: -moz-linear-gradient(270deg, hsla(0, 0%, 100%, 1) 17%, hsla(327, 89%, 71%, 1) 97%);
+  background: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 1) 17%, hsla(327, 89%, 71%, 1) 97%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F774BB", GradientType=1 );
 }
 
+#pregradient {
+  height: 3400vh;
+  background: hsla(52, 97%, 52%, 1);
+  background: linear-gradient(90deg, hsla(52, 97%, 52%, 1) 17%, hsla(327, 89%, 71%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(52, 97%, 52%, 1) 17%, hsla(327, 89%, 71%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(52, 97%, 52%, 1) 17%, hsla(327, 89%, 71%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FBDA0C", endColorstr="#F774BB", GradientType=1 );
+}
+
+#gradient {
+  height: 3400vh;
+  background: hsla(55, 90%, 67%, 1);
+  background: linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7EA60", endColorstr="#3CF2DE", GradientType=1 );
+}
+
+#postgradient {
+  height:3400vh;
+  background: hsla(210, 100%, 34%, 1);
+  background: linear-gradient(90deg, hsla(210, 100%, 34%, 1) 0%, hsla(251, 31%, 49%, 1) 28%, hsla(327, 89%, 71%, 1) 61%, hsla(52, 97%, 52%, 1) 87%);
+  background: -moz-linear-gradient(90deg, hsla(210, 100%, 34%, 1) 0%, hsla(251, 31%, 49%, 1) 28%, hsla(327, 89%, 71%, 1) 61%, hsla(52, 97%, 52%, 1) 87%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 34%, 1) 0%, hsla(251, 31%, 49%, 1) 28%, hsla(327, 89%, 71%, 1) 61%, hsla(52, 97%, 52%, 1) 87%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0057AD", endColorstr="#6556A5", GradientType=1 );
+  }
+
+#endgradient {
+  height: 2000vh;
+  background: hsla(210, 100%, 34%, 1);
+  background: linear-gradient(270deg, hsla(210, 100%, 34%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(270deg, hsla(210, 100%, 34%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(270deg, hsla(210, 100%, 34%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0057AD", endColorstr="#ffffff", GradientType=1 );
+  }
 
 #title1 {
   text-align: center;
@@ -97,7 +127,7 @@ html, body {
   width:100%;
   position: relative;
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 600px;
   color: black;
   font-size: 30px;
   font-family: Inknut Antiqua;
@@ -142,7 +172,7 @@ html, body {
   width:100%;
   position: relative;
   top: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 600px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
@@ -167,7 +197,7 @@ html, body {
   width:100%;
   position: relative;
   top: 7px;
-  margin-bottom: 200px;
+  margin-bottom: 600px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
@@ -180,7 +210,7 @@ html, body {
   position: relative; 
   top: 50px;
   right: 53px;
-  margin-bottom: 200px;
+  margin-bottom: 600px;
   color: black;
   font-size: 25px;
   font-family: Inknut Antiqua;
