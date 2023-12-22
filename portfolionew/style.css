@@ -1,464 +1,309 @@
-html, body {
-    margin: auto;
-    background-color:#F6F1DB;
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&display=swap');
+
+html,
+body {
+  margin: 0;
+  background-color: #f6f1db;
 }
-
-
 
 #houseback {
-    padding-top: 20vw;
-    width: 37vw;
-    height: 520px;
-    background-color: blue;
-    right: 7.5vw;
-    position: absolute;
-}
- #housebackimg {
-    position: absolute;
-    pointer-events: none;
- }
-
-/* #houseback img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}  */
-
-#YamilaFrej {
-    width:16vw; 
-    left: 18vw; 
-    top: 70vh; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    padding-bottom: 10px;
+  margin-top: 30vh;
+  width: 37vw;
+  height: 55vw;
+  position: absolute;
+  right: 7.5vw;
 }
 
-#YamilaFrej img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+#housebackimg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
-#about {
-    width:4vw;
-    left: 60VW;
-    top: 5vh;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 1.3vw;
-    font-family: Inknut Antiqua;
-    font-weight: 600;
+#windowwrapper {
+  margin: auto;
+  padding: 30% 15%;
+  width: 70%;
+  height: 100%;
 }
 
-#contact {
-    width:4vw;
-    left: 71.20VW;
-    top: 5vh;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 1.3vw;
-    font-family: Inknut Antiqua;
-    font-weight: 600;
+.windows {
+  position: relative;
+  float: left;
+  /*  on all sides, so 2.5 + 2.5 + 20 = 25% - each window and its margins together are a quarter of the #windowwrapper width  */
+  margin: 2.5%;
+  width: 20%;
+  height: 6.2vw; /* magic number to maintain image proportions */
+  background-position: 0px 0px;
+  background-size: 200%;
+  background-repeat: no-repeat;
 }
 
-#resume {
-    width:4vw;
-    left: 82VW;
-    top: 5vh;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 1.3vw;
-    font-family: Inknut Antiqua;
-    font-weight: 600;
+.windows:hover {
+  cursor: pointer;
+  background-position: 100% 0px;
 }
 
-
-
-#windowswitch1 {
-    width: 25%;
-    height: 100px;
-    background-image: url("windowswitch1000.png");
+.windowsplain {
+    position: relative;
+    float: left;
+    /*  on all sides, so 2.5 + 2.5 + 20 = 25% - each window and its margins together are a quarter of the #windowwrapper width  */
+    margin: 2.5%;
+    width: 20%;
+    height: 6.2vw; /* magic number to maintain image proportions */
     background-position: 0px 0px;
-    background-size: 200%;
-    background-color: red;
+    background-size: 100%;
     background-repeat: no-repeat;
-}
+  }
 
-#windowswitch1:hover {
-    cursor: pointer;
-    background-position: 100% 0px;
+#window1 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitchlead.png");
 }
 
 #window2 {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 66.95vw;
-    top: 12.5vw;
-}
-
-#window2 img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
+    background-image: url("window2s.png");
+  }
 
 #window3 {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 73.899vw;
-    top: 12.5vw;
+    background-image: url("https://yfrej.github.io/portfolionew/window3s.png");
+  }
+
+#window4 {
+  background-image: url("https://yfrej.github.io/portfolionew/window4switchs.png");
 }
 
-#window3 img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+#window5 {
+  background-image: url("https://yfrej.github.io/portfolionew/fifthwindowswitch.png");
 }
 
-#window4switchs {
-    width: 92px;
-    height: 89px;
-    background-image: url("window4switchs.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 80.9vw;
-    top: 12.4vw;
-}
-
-#window4switchs:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-
-#windowswitch5s {
-    width: 92px;
-    height: 89px;
-    background-image: url("fifthwindowswitch.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 59.99vw;
-    top: 19.5vw;
-}
-
-#windowswitch5s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-
-#windowswitch6s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch6s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 66.95vw;
-    top: 19.5vw;
-}
-
-#windowswitch6s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
+#window6 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch6s.png");
 }
 
 #window7 {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 73.899vw;
-    top: 19.46vw;
+    background-image: url("https://yfrej.github.io/portfolionew/window7s.png")
 }
 
-#window7 img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+#window8 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch8s.png");
 }
 
-#windowswitch8s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch8s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 80.9vw;
-    top: 19.5vw;
+#window9 {
+  background-image: url("https://yfrej.github.io/portfolionew/window9switchs.png");
 }
 
-#windowswitch8s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-
-#windowswitch9s {
-    width: 92px;
-    height: 89px;
-    background-image: url("window9switchs.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 59.99vw;
-    top: 26.50vw;
-}
-
-#windowswitch9s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-
-#window10s {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 66.95vw;
-    top: 26.50vw;
-}
-
-#window10s img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+#window10 {
+    background-image: url("https://yfrej.github.io/portfolionew/window10s.png")
 }
 
 #windowswitch11s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch11s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 73.899vw;
-    top: 26.5vw;
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch11s.png");
 }
 
-#windowswitch11s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
+#window12 {
+    background-image: url("https://yfrej.github.io/portfolionew/window12s.png");
+  }
+
+#window13 {
+    background-image: url("windows13s.png");
+  }
+
+#window14 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch14s.png");
 }
 
-#window12s {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 80.90vw;
-    top: 26.5vw;
+#window15 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch15s.png");
 }
 
-#window12s img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+#window16 {
+  background-image: url("https://yfrej.github.io/portfolionew/windowswitch16s.png");
 }
 
-#window13s {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 59.99vw;
-    top: 33.5vw;
-}
+#window17 {
+    background-image: url("https://yfrej.github.io/portfolionew/windows17s.png");
+  }
 
-#window13s img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
-
-#windowswitch14s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch14s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 66.95vw;
-    top: 33.5vw;
-}
-
-#windowswitch14s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-#windowswitch15s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch15s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 80.9vw;
-    top: 33.5vw;
-}
-
-#windowswitch15s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-#windowswitch16s {
-    width: 92px;
-    height: 89px;
-    background-image: url("windowswitch16s.png");
-    background-position: 0px 0px;
-    position: absolute;
-    left: 59.99vw;
-    top: 40.5vw;
-}
-
-#windowswitch16s:hover {
-    cursor: pointer;
-    background-position: 92px 0px;
-}
-
-#window17s {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 66.95vw;
-    top: 40.5vw;
-}
-
-#window17s img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
-
-#window18s {
-    position: absolute;
-    width: 92px;
-    height: 89px;
-    left: 80.90vw;
-    top: 40.5vw;
-}
-
-#window18s img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
+  #window18 {
+    background-image: url("https://yfrej.github.io/portfolionew/window18s.png");
+  }
 
 #door {
-    position: absolute;
-    width: 92px;
-    height: 99px;
-    left: 73.899vw;
-    top: 38.50vw;
+  position: absolute;
+  width: 15%;
+  height: 9.4vw; /*  magic number based on proportions of image  */
+  right: 12.2vw;
+  bottom: 9.3vw;
 }
 
 #door img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #ProjectDescription {
-    left: 10vw;
-    top: 49vh;
-    max-width: 40vw;
-    position: absolute;
-    color: black;
-    font-size: 1.2vw;
-    font-family: Inknut Antiqua;
-    font-weight: 300;
-    word-wrap: break-word;
+  left: 10vw;
+  top: 49vh;
+  max-width: 40vw;
+  position: absolute;
+  color: black;
+  font-size: 1.2vw;
+  font-family: Inknut Antiqua;
+  font-weight: 300;
+  word-wrap: break-word;
 }
 
 #Timeline {
-    left: 10vw; 
-    top: 43vh; 
-    position: absolute; 
-    color: black; 
-    font-size: 1.3vw; 
-    font-family: Inknut Antiqua; 
-    font-weight: 550; 
-    word-wrap: break-word;
+  left: 10vw;
+  top: 43vh;
+  position: absolute;
+  color: black;
+  font-size: 1.3vw;
+  font-family: Inknut Antiqua;
+  font-weight: 550;
+  word-wrap: break-word;
 }
 
 #ProjectTitle {
-    left: 10vw; 
-    top: 30vh; 
-    position: absolute; 
-    color: black; 
-    font-size: 2.3vw; 
-    font-family: Inknut Antiqua; 
-    font-weight: 600;
+  left: 10vw;
+  top: 30vh;
+  position: absolute;
+  color: black;
+  font-size: 2.3vw;
+  font-family: Inknut Antiqua;
+  font-weight: 600;
 }
-   
+
 #KeepHunting {
-    width: 10vw; 
-    right: 10vw;
-    top: 79vh; 
-    position: absolute; 
-    text-align: right; 
-    color: black; 
-    font-size: 2.5vh; 
-    font-family: Inknut Antiqua; 
-    font-weight: 600;
+  width: 10vw;
+  right: 10vw;
+  top: 79vh;
+  position: absolute;
+  text-align: right;
+  color: black;
+  font-size: 2.5vh;
+  font-family: Inknut Antiqua;
+  font-weight: 600;
 }
 
 #Project4Window {
-    width: 40vw;
-    height: 397px;
-    right: 10vw;
-    top: 12vw;
-    position: absolute;
+  width: 40vw;
+  height: 397px;
+  right: 10vw;
+  top: 12vw;
+  position: absolute;
 }
 
 #Project4Window img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 #JsClockWindow {
-    bottom: 10vh;
-    width: 30vw;
-    height: 20vh;
-    right: 10vw;
-    position: absolute;
+  bottom: 10vh;
+  width: 30vw;
+  height: 20vh;
+  right: 10vw;
+  position: absolute;
 }
 
 #JsClockWindow img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 #JsKeepHunting {
-    width: 10vw; 
-    right: 10vw;
-    bottom: 6vh;
-    position: absolute; 
-    text-align: right; 
-    color: black; 
-    font-size: 2.5vh; 
-    font-family: Inknut Antiqua; 
-    font-weight: 600;
+  width: 10vw;
+  right: 10vw;
+  bottom: 6vh;
+  position: absolute;
+  text-align: right;
+  color: black;
+  font-size: 2.5vh;
+  font-family: Inknut Antiqua;
+  font-weight: 600;
+}
+
+#YamilaFrej {
+  width: 16vw;
+  left: 18vw;
+  top: 50vh;
+  position: absolute;
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+}
+
+#YamilaFrej img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+#about {
+  width: 4vw;
+  left: 60vw;
+  top: 5vh;
+}
+
+#contact {
+  width: 4vw;
+  left: 71.2vw;
+  top: 5vh;  
+}
+
+#resume {
+  width: 4vw;
+  left: 82vw;
+  top: 5vh;
+}
+
+.links {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 1.3vw;
+  font-family: Inknut Antiqua;
+  font-weight: 600;
+}
+
+.links:hover {
+  color: #74a3a8;
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    font-size: 10px;
+  }
+  #houseback {
+    margin-top: 10vh;
+    right: 0;
+    width: 100%;
+    height: 145vw;
+  }
+  .windows {
+    height: 15vw;
+/*   new magic number since new relative proportions   */
+  }
+  
+  #door {
+    bottom: 37vw;
+    right: 33%;
+  }
+  
+  #YamilaFrej {
+    top: 100px;
+  }
 }
